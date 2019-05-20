@@ -1,0 +1,3 @@
+<% @coupons.each do |coupon| %>
+  <a href="/coupons/<%= coupon.id %>"><h1><%= coupon.coupon_code %></a> | <%= coupon.store %></h1><br>
+<% end %>  
